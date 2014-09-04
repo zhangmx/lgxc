@@ -9,11 +9,11 @@
 <meta name="keywords" content="上海市临港地区开发建设管委会" />
 <meta name="keywords" content="上海市临港地区开发建设管委会"/>
 <link href="style/flexslider.css" rel="stylesheet" type="text/css" />
+<!--<link href="style/jquery-ui.css" rel="stylesheet" type="text/css" />-->
 <link href="style/comm.css" rel="stylesheet" type="text/css" />
 
 <script type="text/javascript"  src="javascript/jquery-1.10.2.min.js"></script>
 <script type="text/javascript"  src="javascript/jquery-ui-1.11.1.min.js"></script>
-<script type="text/javascript"  src="javascript/bootstrap.min.js"></script>
 <script type="text/javascript"  src="javascript/jquery.flexslider-min.js"></script>
 
 </head>
@@ -204,36 +204,28 @@
 
 <div class="mainbox">
 	<div class="columun columun_b_l">
-		<div id="accordion" class="panelbox lggk_l">
-			<div class="panel">
-				<div class="panel_head select">
-					<h4 class="panel-title">
-						<a class="accordion-toggle"  data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="icon-angle-down" data-icon-hide="icon-angle-down" data-icon-show="icon-angle-up"></i>专题报道</a>
-					</h4>
-				</div>
-				<div id="collapse1" class="panel-body desc collapse in">
-					<img src="images/img/img2.jpg" title="临港地区开发建设管委会召开" alt="临港地区开发建设管委会召开" />
-					<a href="#" class="name">临港地区开发建设管委会召开2014年第二次全体会议</a>
-					今年夏日上海难得凉爽，而在距市中心75公里外东海边的临港，开发建设热潮一浪高过一浪。晋飞碳纤维材料等一批项目开工建设，12英寸硅片生产线建设项目正在抓紧推进；以沃尔沃再制造等三大项目为标杆的临港再制造产业.......<a href="#" class="white more">更多&gt;&gt;</a>
-				</div>
-			</div>
-			<div class="panel">
-				<div class="panel_head">
-					<h4 class="panel-title">
-						<a class="accordion-toggle  collapsed"  data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="icon-angle-up" data-icon-hide="icon-angle-down" data-icon-show="icon-angle-up"></i>他山之石</a>
-					</h4>
-				</div>
-				<div id="collapse2" class="panel-body desc collapse">
-					<img src="images/img/img2.jpg" title="临港地区开发建设管委会召开" alt="临港地区开发建设管委会召开" />
-					<a href="#">11临港地区开发建设管委会召开2014年第二次全体会议</a>
-					今年夏日上海难得凉爽，而在距市中心75公里外东海边的临港，开发建设热潮一浪高过一浪。晋飞碳纤维材料等一批项目开工建设，12英寸硅片生产线建设项目正在抓紧推进；以沃尔沃再制造等三大项目为标杆的临港再制造产业.......<a href="#" class="white more">更多</a>
-				</div>
-			</div>
+		<div id="accordion_2" class="panelbox lggk_l">
+            <h4 class="panel-title">
+                <a class="accordion-toggle"  data-toggle="collapse" data-parent="#accordion" href="#collapse1">专题报道</a>
+            </h4>
+            <div id="collapse1" class="panel-body desc collapse in">
+                <img src="images/img/img2.jpg" title="临港地区开发建设管委会召开" alt="临港地区开发建设管委会召开" />
+                <a href="#" class="name">临港地区开发建设管委会召开2014年第二次全体会议</a>
+                今年夏日上海难得凉爽，而在距市中心75公里外东海边的临港，开发建设热潮一浪高过一浪。晋飞碳纤维材料等一批项目开工建设，12英寸硅片生产线建设项目正在抓紧推进；以沃尔沃再制造等三大项目为标杆的临港再制造产业.......<a href="#" class="white more">更多&gt;&gt;</a>
+            </div>
+            <h4 class="panel-title">
+                <a class="accordion-toggle  collapsed"  data-toggle="collapse" data-parent="#accordion" href="#collapse2">他山之石</a>
+            </h4>
+            <div id="collapse2" class="panel-body desc collapse">
+                <img src="images/img/img2.jpg" title="临港地区开发建设管委会召开" alt="临港地区开发建设管委会召开" />
+                <a href="#">11临港地区开发建设管委会召开2014年第二次全体会议</a>
+                今年夏日上海难得凉爽，而在距市中心75公里外东海边的临港，开发建设热潮一浪高过一浪。晋飞碳纤维材料等一批项目开工建设，12英寸硅片生产线建设项目正在抓紧推进；以沃尔沃再制造等三大项目为标杆的临港再制造产业.......<a href="#" class="white more">更多</a>
+            </div>
 		</div>
 	</div>
 
 	<div class="columun columun_b_r">
-		<div class="tabbox lggk_r">
+		<div id="jqui_tab1" class="tabbox lggk_r">
 			<ul class="nav nav-tabs">
 				<li class="active"><a data-toggle="tab" href="#tab_content_1">临港概况</a></li>
 				<li><a data-toggle="tab" href="#tab_content_2">临港规划</a></li>
@@ -333,7 +325,7 @@ $(document).ready(function(){
 </script>
 <div class="mainbox">
 	<div class="columun columun_c_l">
-		<div class="tabbox tzzsbar">
+		<div  id="jqui_tab2" class="tabbox tzzsbar">
 			<ul class="nav">
 				<li class="active"><a data-toggle="tab" href="#tab2_content_1">产业政策</a></li>
 				<li><a data-toggle="tab" href="#tab2_content_2">招商政策</a></li>
@@ -469,32 +461,29 @@ $(document).ready(function(){
 	</div>
 	<div class="columun columun_c_r">
 		<div id="tab6_content" class="tabbox_c">
-			<div class="item">
-				<a data-toggle="tab" href="#tab6_content_1" class="select">投资环境</a>
+
+				<h3 >投资环境</h3>
 				<div class="con">
 					<img src="images/img/img3.jpg" title="投资环境" name="投资环境" alt="投资环境" />
 				</div>
-			</div>
-			<div class="item">
-				<a data-toggle="tab" href="#tab6_content_2" class="">投资导向</a>
-				<div class="con display">
+
+				<h3 >投资导向</h3>
+				<div class="">
 					<img src="images/img/img3.jpg" title="投资导向" name="投资导向" alt="投资导向" />
 				</div>
-			</div>
-			<div class="item">
-				<a data-toggle="tab" href="#tab6_content_3" class="">招商资讯</a>
-				<div class="con display">
+
+				<h3>招商资讯</h3>
+				<div class="">
 					<img src="images/img/img3.jpg" title="招商资讯" name="招商资讯" alt="招商资讯" />
 				</div>
-			</div>
-			<div class="item">
-				<a data-toggle="tab" href="#tab6_content_4" class="">合作交流</a>
-				<div class="con display">
+
+				<h3>合作交流</h3>
+				<div class="">
 					<img src="images/img/img3.jpg" title="合作交流" name="合作交流" alt="合作交流" />
 				</div>
-			</div>
+
 		</div>
-		<div id="tab6_content_1" class="tab_con in active">
+		<div id="tab6_content_1" class="tab_con active">
 			<div class="more"><a href="#" class="blue">更多&gt;&gt;</a></div>
 			<div class="desc">
 			一、战略定位
@@ -670,8 +659,8 @@ $(document).ready(function(){
 
 	<div class="columun columun_d_r">
 		<div id="tab3_content" class="tabbox notice">
-			<ul class="nav bg_n1">
-				<li class="n1 active"><a data-toggle="tab" href="#tab3_content_1">政府信息</a></li>
+			<ul id="tab3_content_ul" class="nav bg_n1">
+				<li class="n1 active"><a href="#tab3_content_1">政府信息</a></li>
 				<li class="n2"><a data-toggle="tab" href="#tab3_content_2">公告公示</a></li>
 				<li class="n3"><a data-toggle="tab" href="#tab3_content_3">政府采购</a></li>
 			</ul>
@@ -779,7 +768,7 @@ $(document).ready(function(){
 
 <div class="mainbox">
 	<div class="columun columun_e_l">
-		<div class="tabbox wicket">
+		<div id="jqui_tab3" class="tabbox wicket">
 			<ul class="nav">
 				<li class="active"><a data-toggle="tab" href="#tab4_content_1"><span class="icon_w1">组织人事</span></a></li>
 				<li><a data-toggle="tab" href="#tab4_content_2"><span class="icon_w2">纪检监察</span></a></li>
@@ -915,7 +904,7 @@ $(document).ready(function(){
 		</div>
 	</div>
 	<div class="columun columun_e_r">
-		<div class="tabbox lggk">
+		<div id="jqui_tab4" class="tabbox lggk">
 			<ul class="nav">
 				<li class="active"><a data-toggle="tab" href="#tab5_content_1">印象临港</a></li>
 				<li><a data-toggle="tab" href="#tab5_content_2">生态之城</a></li>
@@ -930,11 +919,11 @@ $(document).ready(function(){
 								<div class="name"><div class="text"><span></span><a href="#">地点名称</a></div></div>
 							</li>
 							<li>
-								<img src="images/img/img4.jpg" alt="地点名称" name="地点名称" />
+								<img src="images/img/img41.jpg" alt="地点名称" name="地点名称" />
 								<div class="name"><div class="text"><span></span><a href="#">地点名称2</a></div></div>
 							</li>
 							<li>
-								<img src="images/img/img4.jpg" alt="地点名称" name="地点名称" />
+								<img src="images/img/img42.jpg" alt="地点名称" name="地点名称" />
 								<div class="name"><div class="text"><span></span><a href="#">地点名称3</a></div></div>
 							</li>
 						</ul>
@@ -945,15 +934,15 @@ $(document).ready(function(){
 					<div id="flexslider_4" class="focusbar">
 						<ul class="slides">
 							<li>
-								<img src="images/img/img4.jpg" alt="地点名称" name="地点名称" />
+								<img src="images/img/img43.jpg" alt="地点名称" name="地点名称" />
 								<div class="name"><div class="text"><span></span><a href="#">地点名称3</a></div></div>
 							</li>
 							<li>
-								<img src="images/img/img4.jpg" alt="地点名称" name="地点名称" />
+								<img src="images/img/img44.jpg" alt="地点名称" name="地点名称" />
 								<div class="name"><div class="text"><span></span><a href="#">地点名称3</a></div></div>
 							</li>
 							<li>
-								<img src="images/img/img4.jpg" alt="地点名称" name="地点名称" />
+								<img src="images/img/img45.jpg" alt="地点名称" name="地点名称" />
 								<div class="name"><div class="text"><span></span><a href="#">地点名称3</a></div></div>
 							</li>
 						</ul>
@@ -964,15 +953,15 @@ $(document).ready(function(){
 					<div id="flexslider_5" class="focusbar">
 						<ul class="slides">
 							<li>
-								<img src="images/img/img4.jpg" alt="地点名称" name="地点名称" />
+								<img src="images/img/img46.jpg" alt="地点名称" name="地点名称" />
 								<div class="name"><div class="text"><span></span><a href="#">地点名称3</a></div></div>
 							</li>
 							<li>
-								<img src="images/img/img4.jpg" alt="地点名称" name="地点名称" />
+								<img src="images/img/img47.jpg" alt="地点名称" name="地点名称" />
 								<div class="name"><div class="text"><span></span><a href="#">地点名称3</a></div></div>
 							</li>
 							<li>
-								<img src="images/img/img4.jpg" alt="地点名称" name="地点名称" />
+								<img src="images/img/img48.jpg" alt="地点名称" name="地点名称" />
 								<div class="name"><div class="text"><span></span><a href="#">地点名称3</a></div></div>
 							</li>
 						</ul>
@@ -1008,122 +997,6 @@ $(document).ready(function(){
 	</div>
 </div>
 <!--footer 结束-->
-<script type="text/javascript">
-	jQuery(function($) {
-
-		//for headmenu
-		$( "#headmenu li" ).hover(
-			function(){
-				$( this ).toggleClass( "select", 0 ).find('div.sub').toggleClass( "display", 0 )
-			},
-			function(){
-				$( this ).toggleClass( "select", 0 ).find('div.sub').toggleClass( "display", 0 )
-			}
-		);
-		//for headmenu submenu class
-		$( "ul.list li" ).hover(
-			function(){
-				$( this ).find('a').toggleClass( "select", 0 );
-			},
-			function(){
-				$( this ).find('a').toggleClass( "select", 0 );
-			}
-		);
-
-		//tab3_content
-		$('#tab3_content a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-			var href = e.target.getAttribute("href");
-			//console.log(href);
-			$('#tab3_content a[data-toggle="tab"]').each(function(i){
-				var a = $(this);
-				if ( href == a.attr('href') ) {
-					var ul = a.parent().parent();
-					var now = i + 1;
-					ul.removeClass('bg_n1');
-					ul.removeClass('bg_n2');
-					ul.removeClass('bg_n3');
-					ul.addClass('bg_n' + now);
-				}
-				//console.log(i);
-			});
-			//a.toggleClass( "select", 0 );
-			//console.log(e.target.getAttribute("href"));
-		});
-
-
-		$('#tab6_content a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
-			var href = e.target.getAttribute("href");
-			//console.log(href);
-			$('#tab6_content a[data-toggle="tab"]').each(function(){
-				var a = $(this);
-				if ( href == a.attr('href') ) {
-					a.addClass('select');
-					a.next('div').removeClass('display');
-				} else {
-					a.removeClass('select');
-					a.next('div').addClass('display');
-				}
-				//console.log(a);
-			});
-			//a.toggleClass( "select", 0 );
-			//console.log(e.target.getAttribute("href"));
-		});
-
-		var icons = {
-	      header: "icon-angle-up",
-	      activeHeader: "icon-angle-down"
-	    };
-
-
-		//jquery accordion
-		$( "#accordion_1" ).accordion({
-//			collapsible: true ,
-			heightStyle: "content",
-			animate: 250,
-			icons: icons,
-//			header: "> div > h3"
-			header: ".panel_head"
-//		}).sortable({
-//			axis: "y",
-//			handle: ".accordion-header",
-//			stop: function( event, ui ) {
-				// IE doesn't register the blur when sorting
-				// so trigger focusout handlers to remove .ui-state-focus
-//				ui.item.children( ".accordion-header" ).triggerHandler( "focusout" );
-//			}
-		});
-
-
-		//jcarousel
-		$('#flexslider').flexslider({
-			animation: "slide"
-		});
-
-		$('#flexslider_2').flexslider({
-			animation: "slide"
-		});
-
-
-		$('#flexslider_3').flexslider({
-			animation: "slide"
-		});
-
-
-		$('#flexslider_4').flexslider({
-			animation: "slide"
-		});
-
-		$('#flexslider_5').flexslider({
-			animation: "slide"
-		});
-
-		//
-		$('#slidetoggle').click(function(){
-			$('#slidetoggle_div').slideToggle();
-			$(this).toggleClass('app_down').toggleClass('app_up');
-		});
-
-	});
-</script>
+<script type="text/javascript"  src="javascript/home.js"></script>
 </body>
 </html>
